@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+span {
+  font-size: 26px;
+  color: darkorange;
+}
+
+#headDiv {
+  background: url(./HPX_Website_Hero.jpg);
+  color: aliceblue;
+}
+
+.filmCharacters ul {
+  list-style: none;
+  color: red;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+#container {
+  background-color: seagreen;
+  padding: 2rem;
+}
+
+#paragraph {
+  color: darkblue;
+  font-size: 20px;
+  padding: 1rem 0;
+}
+#link {
+  font-size: 2rem;
+  color: aqua;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+#headingMedium {
+  color: yellow;
+}
+
+#tableDiv {
+  background-color: aquamarine;
+  padding: 2rem;
+}
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 3px solid darkblue;
+  padding: 12px;
+  font-size: 22px;
+  color: darkred;
+}
+
+#formDiv {
+  background-color: skyblue;
+  margin: 1rem;
+}
+
+#formDiv {
+  padding: 2rem;
+}
+#formElements {
+  font-size: 1.4rem;
+}
+
+#radioBtn label {
+  font-size: 2rem;
+}
+
+#radioBtn input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#formElements button {
+  padding: 10px 22px;
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+#formElements input {
+  padding: 4px 6px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: seagreen;
+}
+#formElements input::placeholder {
+  color: red;
+}
