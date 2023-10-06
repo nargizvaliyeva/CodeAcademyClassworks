@@ -1,0 +1,47 @@
+.fayl {
+  color: blue;
+  font-size: 25px;
+  text-shadow: -3px -7px 5px black;
+  font-family: "Times New Roman", Times, serif;
+}
+.p {
+  margin: 20px 0;
+}
+.detal {
+  color: red;
+}
+.text {
+  font-weight: 700;
+}
+.dog{
+    color: blueviolet;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fix{
+    color: green;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.task{
+    color: brown;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.class{
+    color: chartreuse;
+    font-size:28px ;
+    text-shadow: -5px -3px 0 black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+}
+.red{
+    color: cadetblue;
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.code{
+    color: palevioletred;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
