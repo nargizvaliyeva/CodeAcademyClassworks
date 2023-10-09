@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 5vh;
+
+}
+.flex-container .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.one {
+    background-color: rgb(65, 114, 98);
+    height: 30vh;
+    width: 30%;
+    border-radius:  10px; ;
+}
+
+footer{
+    height: 3vh;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgba(209, 124, 174, 0.87);
+}
