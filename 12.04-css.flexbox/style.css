@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+.container{
+    margin: 0 auto;
+    height: 150vh;
+}
+.box{
+  background-color: aqua;
+  border: 10px;
+  height: 150px;
+  position:fixed;
+  top: 0;
+}
+.box1{
+    background-color: green;
+    border: 10px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    margin-top: 200px;
+}
+.box2{
+    background-color: blue;
+    border: 10px;
+    height: 150px; 
+    left: 10px;
+    margin-top: 30px;
+}
+.box3{
+    background-color: blueviolet;
+    border: 10px;
+    margin-top: 0px;
+    height: 120px;
+    position: sticky;
+    top: 0;
+}
