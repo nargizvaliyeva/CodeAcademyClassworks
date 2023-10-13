@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgba(60, 102, 60, 0.658);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .head h1 {
+  padding: 20px 0;
+}
+header .head {
+  text-decoration: none;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head ul, a {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  color: azure;
+}
+.box .box2 {
+  background-color: transparent;
+  border: none;
+  color: antiquewhite;
+}
+.box .box1 {
+  background-color: rgba(31, 128, 31, 0.623);
+  border: none;
+  height: 25px;
+  border-radius: 7px;
+  color: antiquewhite;
+}
+
+.fa-solid.fa-bars {
+  display: none;
+}
+
+.one1 {
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+} 
+
+.team-members .logo{
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  .fa-solid.fa-bars {
+    display: block;
+  }
+  header .head #navigation, .box{
+    display: none;
+  }
+  .team-members .logo {
+    width: 48%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .team-members .logo {
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .team-members .logo {
+        width: 20%;
+    }
+}
+
+
+.logo .logo1{
+ display: flex;
+ flex-wrap: wrap;
+}
