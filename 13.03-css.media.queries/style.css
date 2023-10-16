@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 header {
   background-color: rgba(60, 102, 60, 0.658);
@@ -89,4 +91,20 @@ header .head ul, a {
 .logo .logo1{
  display: flex;
  flex-wrap: wrap;
+}
+footer{
+  background-color: #072125;
+  width: 100%;
+
+}
+.foot .right h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot .right a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
