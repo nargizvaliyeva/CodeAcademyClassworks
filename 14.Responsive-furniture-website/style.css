@@ -17,11 +17,13 @@ body{
     align-items: center;
     color: azure;
 }
-nav ul li a{
+
+nav ul, li, a{
     color: azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
 .container {
@@ -37,6 +39,7 @@ nav ul li a{
     color: rgba(240, 255, 255, 0.856);
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 .box p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,7 +49,7 @@ nav ul li a{
     padding-top: 30px;
 }
 .make{
-    padding-top: 50px;
+    padding-top: 40px;
     justify-content: center;
 }
 .button{
@@ -55,11 +58,12 @@ nav ul li a{
    border: 2px solid white;
    border-radius: 20px;
    width: 15%;
+   margin-bottom: 15px;
 }
 .box1{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 
@@ -70,22 +74,159 @@ nav ul li a{
     border-radius: 20px;
     color: rgb(129, 129, 129);
     position: relative;
-    left: -30px;
+    left: -35px;
+    margin-bottom:15px ;
 }
-@media screen and (max-width: 1023px) {
-    .one .fa-bars{
-       display: unset;
+
+   .container1{
+      margin: 0 auto;
+      max-width: 1200px;
+   }
+   .main-box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgb(121, 61, 61);
+    text-align: center;
+    padding: 50px;
+    
+   }
+   .container1 .login{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    
+    
+   
     }
-}
-@media screen  and (max-width: 767px){
-    .button{
-        background-color:transparent;
-         color: white;
-        border: 2px solid white;
-        border-radius: 20px;
-        width: 50%;
+    .main1{
+        background-color: #f7f1f1;
+        height: 65vh;
+    }
+    .one1{
+        
+        box-shadow:  7px 5px 10px #FADCD9;
+        border: 3px solid #FADCD9;
+        color: aliceblue;
+        border-radius: 7px;
+         width: 50%;
+         height: 35vh;
+       background-color: rgb(213, 213, 213);
+         
      }
-    nav ul li a{
-       
-    }
-}
+     .icon img{
+        padding: 5px;;
+        width: 40px;
+        height: 40px;
+     }
+   
+
+    .one1 h3{
+    color: rgb(39, 41, 43);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+   }
+   .one1 p{
+    padding: 10px;
+    color: rgb(114, 112, 109);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .one1 a{
+    padding: 20px;
+      color:#a26a65;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .container{
+    margin: 0 auto;
+    max-width: 1200px;
+   }
+   .asside{
+    display: flex;
+    margin: 20px;
+   }
+   .left h1{
+    padding: 10px;
+    color: #a26a65;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .left p{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(139, 133, 133);
+   }
+   .left a{
+    color: #b04238;
+    margin: 10px;
+   }
+   .right img{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+   }
+   
+   .aria h1{
+    padding: 0 90vh;
+    color: #a26a65;
+   }
+   .container3 h1{
+   position: relative;
+   color: #a47d7a;
+   left: 40%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .box3{
+    display: flex;
+   }
+   .box4 img{
+    margin: 10px;
+    width: 80%;
+    height: 70%;
+   }
+   .box4 h4,p{
+    color: rgb(88, 81, 81);
+    padding: 0 10px;
+   }
+   .box4 .catagory{
+    color: rgb(144, 140, 140);
+   }
+   .foto h1{
+    color: #a26a65;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .services {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 40vh;
+    background-color: rgb(243, 243, 243);
+   }
+   .services{
+    display: flex;
+   }
+   .flex{
+    display: flex;
+    padding: 15px;
+   }
+   .foto h2{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(39, 37, 37);
+    
+   }
+   .services h2{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .flex .right h5{
+    padding: 5px;
+    margin: 5px;
+   }
+   
+  
+   
+
