@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+   gap: 80px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container h2{
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link{
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.box i{
+    background-color: aliceblue;
+   width:50px;
+   height: 50px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(26, 111, 126);
+   font-size: 1.5rem;
+}
+.box h3{
+    color: chocolate;
+}
+
+.box i:hover {
+    transition: all 1s;
+    transform: rotateZ(360deg);
+    border-radius: 100px;
+
+  
+}
