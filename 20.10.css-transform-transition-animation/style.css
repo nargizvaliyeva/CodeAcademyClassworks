@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.boxes .box:first-child{
+    background-color: brown;
+}
+.boxes .box:nth-child(2){
+    background-color: green;
+}
+.boxes .box:nth-child(3){
+    background-color: blueviolet;
+}
+.boxes .box:nth-child(4){
+    background-color: yellow;
+}
+.box p{
+    display: none;
+}
+.box:hover p{
+    display: inline;
+}
+.box:hover h3{
+    display: none;
+}
+
+/*  HOVER  */
+
+.boxes .box:first-child:hover {
+    transform: scale(1.1);
+}
+.boxes .box:nth-child(2):hover {
+    transform: translate(50%, -100%);
+}
+
+.boxes .box:nth-child(3):hover {
+    transform: rotateY(360deg);
+}
+.boxes .box:nth-child(4):hover {
+    transform: skewX(7deg);
+}
