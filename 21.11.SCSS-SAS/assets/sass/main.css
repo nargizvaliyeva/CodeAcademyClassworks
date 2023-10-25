@@ -104,6 +104,11 @@ table {
 }
 .main .home .button1 {
   padding: 20px;
+  transition: all 1s;
+}
+.main .home .button1 .button:hover {
+  transition: 1s;
+  transform: scale(1.1);
 }
 .main .home .button1 .button {
   border-radius: 20px;
@@ -115,6 +120,11 @@ table {
   border-radius: 20px;
   padding: 8px;
   border: 2px solid rgb(79, 55, 11);
+  transition: all;
+}
+.main .home .button1 .more {
+  transition: 1s;
+  transform: scale(1.1);
 }
 .main .home .boxes {
   margin: 20px;
@@ -124,6 +134,18 @@ table {
   align-items: center;
   height: 30vh;
   gap: 30px;
+  transition: all;
+}
+.main .home .boxes img {
+  margin: 25px;
+}
+.main .home .boxes .box3:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.main .home .boxes .box1:hover {
+  transition: 1s;
+  transform: scale(1.1);
 }
 .main .home .boxes .box1 {
   background-color: white;
