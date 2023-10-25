@@ -1,0 +1,32 @@
+.header {
+    
+  .container {
+    .head {
+      font-size: 24px;
+      line-height: 32px;
+      color: #252b42;
+      @include flex(space-between);
+
+      nav {
+        ul {
+           display: flex;
+          width: 280px;
+          height: 24px;
+          gap: 21px;
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+      i{
+        width: 24px;
+        height: 13px;
+        top: 45px;
+        left: 1298px;
+
+      }
+    }
+  }
+}

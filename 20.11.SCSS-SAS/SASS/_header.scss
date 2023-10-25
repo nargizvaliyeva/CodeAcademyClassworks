@@ -1,0 +1,30 @@
+#header{
+   background-color: rgb(27, 56, 56);
+   .container{ 
+        .head{
+            @include flex(space-between);
+            padding: 15px;
+            nav {
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 20px;
+                    li {
+                        a {
+                            color: orangered;
+                        }
+                    }
+                }
+            }
+            .sign{
+                background-color: rgb(85, 107, 62);
+                &:hover{
+                    transform: scale(1.3);
+                    transition: 1s;
+                }
+            }
+        }
+   }
+}
+    
