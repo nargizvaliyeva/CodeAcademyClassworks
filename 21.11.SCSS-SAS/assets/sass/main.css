@@ -137,7 +137,7 @@ table {
   transition: all;
 }
 .main .home .boxes img {
-  margin: 25px;
+  margin: 20px;
 }
 .main .home .boxes .box3:hover {
   transition: 1s;

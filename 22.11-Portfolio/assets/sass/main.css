@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.part1 {
+  background-color: #333333;
+  height: 50vh;
+}
+.part1 header .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.part1 header .head .logo {
+  display: flex;
+  gap: 10px;
+}
+.part1 header h4 {
+  color: white;
+}
+.part1 header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.part1 header nav ul li a {
+  color: white;
+}
+.part1 header .button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.part1 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.part1 .main h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.part1 .main p {
+  color: rgb(165, 163, 163);
+  font-size: large;
+}
+
+.part2 {
+  background-color: #391400;
+}
+.part2 .sub-part2 nav {
+  padding: 2rem;
+}
+.part2 .sub-part2 nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.part2 .sub-part2 nav ul li a {
+  color: aliceblue;
+}
+.part2 .sub-part2 .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.part2 .sub-part2 .boxes .box {
+  width: 30%;
+  position: relative;
+}
+.part2 .sub-part2 .boxes .box img {
+  width: 100%;
+}
+.part2 .sub-part2 .boxes .box .design .button {
+  background-color: azure;
+  border-radius: 15px;
+  width: 25%;
+  padding: 10px;
+  color: orange;
+  border: transparent;
+  position: absolute;
+  left: 20px;
+  bottom: 80px;
+}
+.part2 .sub-part2 .boxes .box .design h3 {
+  color: azure;
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */

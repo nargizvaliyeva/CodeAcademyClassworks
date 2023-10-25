@@ -1,0 +1,50 @@
+.part2 {
+    background-color: $bg-primary-color;
+  .sub-part2 {
+    nav {
+        padding: 2rem;
+      ul {
+        @include flex();
+        gap: 20px;
+        li {
+          a {
+            color: aliceblue;
+          }
+        }
+      }
+    }
+    .boxes {
+      @include flex();
+      flex-wrap: wrap;
+      gap: 15px;
+      .box {
+        width: 30%;
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .design{
+           .button{
+            background-color: azure;
+            border-radius: 15px ;
+            width: 25%;
+            padding: 10px;
+           color: orange;
+           border: transparent;
+           position: absolute;
+           left: 20px;
+           bottom: 80px;
+           }
+            h3{
+                color: azure;
+                position: absolute;
+                left: 20px;
+                bottom: 50px;
+                font-size: 30px;
+
+            }
+        }
+      }
+    }
+  }
+}

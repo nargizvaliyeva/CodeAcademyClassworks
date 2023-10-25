@@ -1,0 +1,53 @@
+.part1 {
+  background-color: $color-text;
+  height: 50vh;
+
+  header {
+    .head {
+      @include flex(space-between);
+      padding: 15px;
+      .logo {
+        display: flex;
+        gap: 10px;
+      }
+    }
+    h4 {
+      color: white;
+    }
+
+    nav {
+      ul {
+        @include flex(space-between);
+        gap: 20px;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .button {
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      width: 100px;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+  .main {
+    @include flex();
+    flex-direction: column;
+    row-gap: 20px;
+    h1 {
+      color: white;
+      font-size: 65px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    p {
+      color: rgb(165, 163, 163);
+      font-size: large;
+    }
+  }
+}
